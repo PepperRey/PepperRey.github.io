@@ -45,7 +45,7 @@
 <meta property="og:locale">
 <meta property="og:image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
 <meta property="article:published_time" content="2023-01-05T03:15:45.000Z">
-<meta property="article:modified_time" content="2023-01-05T04:22:10.926Z">
+<meta property="article:modified_time" content="2023-01-05T17:57:38.522Z">
 <meta property="article:author" content="PepperRey">
 <meta property="article:tag" content="日常">
 <meta name="twitter:card" content="summary">
@@ -1698,9 +1698,9 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 		'}'+
 	'</style>'+
     '<div class="kill-ie">'+
-        `<span class="kill-t"><b>抱歉，您的浏览器无法访问本站</b></span><br/>`+
-        `<span class="kill-c">微软已经于2016年终止了对 Internet Explorer (IE) 10 及更早版本的支持，<br/>继续使用存在极大的安全隐患，请使用当代主流的浏览器进行访问。</span><br/>`+
-        `<a target="_blank" rel="noopener" href="https://blogs.windows.com/windowsexperience/2021/05/19/the-future-of-internet-explorer-on-windows-10-is-in-microsoft-edge/"><strong>了解详情 ></strong></a>`+
+        `<span class="kill-t"><b>Sorry, your browser cannot access this site</b></span><br/>`+
+        `<span class="kill-c">Microsoft has terminated support for Internet Explorer (IE) 10 and earlier versions in 2016. <br/>There are great security risks to continue using it. Please use contemporary mainstream browsers to access.</span><br/>`+
+        `<a target="_blank" rel="noopener" href="https://blogs.windows.com/windowsexperience/2021/05/19/the-future-of-internet-explorer-on-windows-10-is-in-microsoft-edge/"><strong>Learn more ></strong></a>`+
     '</div>');
 </script>
 
@@ -1728,9 +1728,9 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 		}
 	</style>
     <div class="kill-noscript">
-        <span class="kill-t"><b>抱歉，您的浏览器无法访问本站</b></span><br/>
-        <span class="kill-c">本页面需要浏览器支持（启用）JavaScript</span><br/>
-        <a target="_blank" rel="noopener" href="https://www.baidu.com/s?wd=启用JavaScript"><strong>了解详情 ></strong></a>
+        <span class="kill-t"><b>Sorry, your browser cannot access this site</b></span><br/>
+        <span class="kill-c">This page requires browser support (enable) JavaScript</span><br/>
+        <a target="_blank" rel="noopener" href="https://www.baidu.com/s?wd=启用JavaScript"><strong>Learn more ></strong></a>
     </div>
 </noscript>
 
@@ -1745,7 +1745,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     debug: "env",
     cdn: {"js":{"app":"/js/app.js","parallax":"/js/plugins/parallax.js","rightMenu":"/js/plugins/rightMenu.js","rightMenus":"/js/plugins/rightMenus.js","sites":"/js/plugins/tags/sites.js","friends":"/js/plugins/tags/friends.js","contributors":"/js/plugins/tags/contributors.js","search":"/js/search/hexo.js"},"css":{"style":"/css/style.css"}},
     default: {"avatar":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/avatar/round/3442075.svg","link":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/cover/76b86c0226ffd.svg","image":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1672914634435),
+    lastupdate: new Date(1672941507196),
     sidebar: {
       for_page: ["blogger","category","tagcloud","donate"],
       for_post: ["toc"],
@@ -2202,13 +2202,30 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                href="/" title="文章"
+                href="/" title="主页"
                   
                   
                   
                     active-action="action-home"
                   >
-                  <i class='fa-solid fa-rss fa-fw'></i>文章
+                  <i class='fa-solid fa-rss fa-fw'></i>主页
+                </a>
+                
+              </li>
+            
+          
+          
+            
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover"
+                href="/archives/" title="归档"
+                  
+                  
+                  
+                    active-action="action-archives"
+                  >
+                  <i class='fa-solid fa-archive fa-fw'></i>归档
                 </a>
                 
               </li>
@@ -2243,23 +2260,6 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
                     active-action="action-tags"
                   >
                   <i class='fa-solid fa-tags fa-fw'></i>标签
-                </a>
-                
-              </li>
-            
-          
-          
-            
-            
-              <li>
-                <a class="menuitem flat-box faa-parent animated-hover"
-                href="/archives/" title="归档"
-                  
-                  
-                  
-                    active-action="action-archives"
-                  >
-                  <i class='fa-solid fa-archive fa-fw'></i>归档
                 </a>
                 
               </li>
@@ -2306,13 +2306,30 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                href="/" title="文章"
+                href="/" title="主页"
                   
                   
                   
                     active-action="action-home"
                   >
-                  <i class='fa-solid fa-rss fa-fw'></i>文章
+                  <i class='fa-solid fa-rss fa-fw'></i>主页
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover"
+                href="/archives/" title="归档"
+                  
+                  
+                  
+                    active-action="action-archives"
+                  >
+                  <i class='fa-solid fa-archive fa-fw'></i>归档
                 </a>
                 
               </li>
@@ -2347,23 +2364,6 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
                     active-action="action-tags"
                   >
                   <i class='fa-solid fa-tags fa-fw'></i>标签
-                </a>
-                
-              </li>
-            
-          
-            
-              
-            
-              <li>
-                <a class="menuitem flat-box faa-parent animated-hover"
-                href="/archives/" title="归档"
-                  
-                  
-                  
-                    active-action="action-archives"
-                  >
-                  <i class='fa-solid fa-archive fa-fw'></i>归档
                 </a>
                 
               </li>
@@ -2430,6 +2430,13 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
               <img src='https://unpkg.com/volantis-static@0.0.1654736714924/media/twemoji/assets/svg/1f5c3.svg'><p>主页</p>
             </a>
           
+            <a href="/archives/"
+              
+              
+              active-action="action-archives">
+              <img src='https://unpkg.com/volantis-static@0.0.1654736714924/media/twemoji/assets/svg/1f4f0.svg'><p>归档</p>
+            </a>
+          
             <a href="/tags/"
               
               
@@ -2442,13 +2449,6 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
               
               active-action="action-about">
               <img src='https://unpkg.com/volantis-static@0.0.1654736714924/media/twemoji/assets/svg/1f389.svg'><p>关于</p>
-            </a>
-          
-            <a href="/archives/"
-              
-              
-              active-action="action-archives">
-              <img src='https://unpkg.com/volantis-static@0.0.1654736714924/media/twemoji/assets/svg/1f4f0.svg'><p>归档</p>
             </a>
           
             <a target="_blank" rel="noopener" href="https://github.com/PepperRey/"
@@ -2556,8 +2556,49 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     <p>“我说你好笨.”</p>
 <p>“… 啊?”</p>
 <span id="more"></span>
+<h2 id="楔子">楔子</h2>
+<p>现在已经十二点四十五了, 一月六号. 大概一个小时前, 我们的胡美女已经睡觉了, 睡前她还放出狠话说: <strong>谁不睡觉谁小狗 😡</strong>. 呜呜, 好怕呢~</p>
+<p>不过我睡不着啊. 于是就有了这篇文章.</p>
+<h2 id="那天我们在干嘛">那天我们在干嘛</h2>
+<p>据我所知, 那天Pepper被叔叔叫起床, 然后吃早餐🍞… 放假啊, 九点不到啊. 知道这件事首先应该先<s>好好嘲笑一番</s>安慰一下, 于是我说 <strong>以后我要监督你睡觉</strong> (因为前一天某人睡得很晚啊; <s>我也从未想过这句话会被某人拿来反驳我, 可恶</s>). 于是我们两个人在一顿挣扎后, 起床了. 关于为啥我们睡那么晚emm… 我去翻了一下聊天记录</p>
+<p><img src="%E5%85%94%E5%85%94%E4%BC%AF%E7%88%B5%E5%92%8C%E7%BB%9D%E4%BA%91%E6%A4%92%E6%A4%92.png" class="lazyload" data-srcset="%E5%85%94%E5%85%94%E4%BC%AF%E7%88%B5%E5%92%8C%E7%BB%9D%E4%BA%91%E6%A4%92%E6%A4%92.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="兔兔伯爵  绝云椒椒"></p>
+<p>又是一段可以讲很久的故事呢.</p>
+<p>然后应该就到了中午, 给她分享了午餐, <strong><s>翡翠珍珠白玉汤</s>白萝卜汤</strong></p>
+<p><img src="launch.png" class="lazyload" data-srcset="launch.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="翡翠珍珠白玉汤白萝卜汤"></p>
+<p>哼, 敷衍</p>
+<p>今天开始准备给她<strong>傲娇</strong>一下</p>
+<p>呵首先某人要去玩是吧, 好啊还自称<strong>胡漂漂</strong>是吧, 那我回礼貌一点吧, 语出不惊, 但杀伤力应该还挺大的</p>
+<p><img src="%E6%B3%A8%E6%84%8F%E5%AE%89%E5%85%A8.png" class="lazyload" data-srcset="%E6%B3%A8%E6%84%8F%E5%AE%89%E5%85%A8.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="注意安全"></p>
+<p>哼, 突然的礼貌肯定让你困惑然后措手不及, 来关注一下我美味的翡翠珍珠白玉汤. 但是</p>
+<p><img src="reply1.png" class="lazyload" data-srcset="reply1.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="reply1"></p>
+<p>❔ 不是, 你这样我就急了, 我要说啥啊救命, 我不能输给这个人. 哼钓呗, 谁钓到谁走运, 反正我不钓就不钓, 关我啥事是吧 😴</p>
+<p><img src="reply2.png" class="lazyload" data-srcset="reply2.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="reply2"></p>
+<p>那以后发生的事情与我无关了, 你自己看着办, <strong>看你回来怎么安慰我吧</strong>.</p>
+<p><img src="reply3.png" class="lazyload" data-srcset="reply3.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="reply3"></p>
+<p>❔ 啊啊啊啊, 这是何方神圣, 小丁? 应该是朋友吧, 希望是朋友吧, 肯定是朋友吧.</p>
+<p>眼不见心不烦, 有啥好烦的, 别人和朋友去看电影罢了. 好不容易转阴了, 应该的嘛对不对. 啊不过确实小烦, 相比之下我每天呆在这一点点大的房间里面, 一坐就是一天, 确实难受. 找不到人出去玩啊呜呜.</p>
+<h2 id="狗勾">狗勾</h2>
+<p>大概不知道过了多久, 我只觉得有一万年.</p>
+<p>然后耳机里面突然 <strong>叮咚</strong>, OMG老天爷, 她还记得我啊. 然后我开开心心点开看, 当然我要尽量表现得稳重平淡以及带有一丢丢的小情绪.</p>
+<p><img src="reply4.png" class="lazyload" data-srcset="reply4.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="reply4"></p>
+<p>❔ 您真的没有<strong>意有所指</strong>吗</p>
+<p><img src="reply5.png" class="lazyload" data-srcset="reply5.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="reply5"></p>
+<p>至少我有点尬. 不知道这个铁石心肠的人知不知道. 然后那只小狗勾确实跟了一路啊, 又是过马路, 又是等的. <strong>我真很同情</strong>, 要是我我直接带回家了. 但是问题所在就是, <strong>我怎么看怎么像我啊救命</strong>. 这个女人为了试探那只可怜无助弱小的小狗勾, 她躲起来了. 然后那只小狗没看见她, 就趴着等她出现, 等啊等. 有人好像忘了有一只小狗在她, 在那里拍照. 狗勾走了. 虽然最后又找到她, 不过最后还是走了捏. (<strong>草, 怎么和我一模一样啊</strong>). 于是我说</p>
+<p><img src="reply6.png" class="lazyload" data-srcset="reply6.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="reply6"></p>
+<p>她说她有点愧疚 (啊你还知道愧疚啊~)</p>
+<p>❌ 不对, 不对. 不是愧疚, 首先你没有欠它任何东西, 也没有亏待它, 它自己找上来的. 不过后来好像你也挺喜欢它的是吧 (比如想买香肠之类的). 后来呢, 小狗来了, 又走了, 啥也没说就走了, 但是你香肠也还没买呢.</p>
+<p>🐶 : 这个人类要回家了嘛汪~ 好像不太喜欢我跟着呢汪~ 那我先走了吧汪汪~</p>
+<p>👩 : 啊小狗走了呢, 我还想买香肠来着, 但是它又没有跟着我了, 我再买是不是不太好, 它会不会不要啊…</p>
+<p>所以最后是双方都误解了对方. 有一个词语叫做 <strong>遗憾</strong>, 胡美女可以学一下.</p>
+<p>我告诉她这或许叫遗憾更加贴切吧~ 然后这个人突然就开始</p>
+<p><img src="reply7.png" class="lazyload" data-srcset="reply7.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="reply7"></p>
+<p>你这样让我很害怕, 不过暧昧了这么久也习惯了, 那就让我来试探一下 😏</p>
+<p><img src="reply8.png" class="lazyload" data-srcset="reply8.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="reply8"></p>
+<p>不过感觉确实是我想多了</p>
+<p><img src="reply9.png" class="lazyload" data-srcset="reply9.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="reply9"></p>
+<p>哎呀别人都没这意思, 都不带挽留的. 不过也庆幸一下还好没有像上次那样冲动, 不然差点连朋友也做不了了.</p>
+<p>于是许某靠在椅子上长呼一口气, 就这样吧, 她也说过要遇见 <strong>对</strong> 的人, 我也要慢慢等, 马上21岁的人了是吧, 那么急干嘛. (无奈.jpg, 想开.jpg)</p>
 
-<h2 id="你才笨"><a href="#你才笨" class="headerlink" title="你才笨"></a>你才笨</h2>
   </div>
   
   
@@ -2581,10 +2622,10 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     <div class='new-meta-box'>
       
         
-          <div class="new-meta-item date" itemprop="dateModified" datetime="2023-01-05T12:22:10+08:00">
+          <div class="new-meta-item date" itemprop="dateModified" datetime="2023-01-06T01:57:38+08:00">
   <a class='notlink'>
     <i class="fa-solid fa-edit fa-fw" aria-hidden="true"></i>
-    <p>更新于：Jan 5, 2023</p>
+    <p>更新于：Jan 6, 2023</p>
   </a>
 </div>
 
@@ -2713,7 +2754,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
 
     <div class='content'>
-        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BD%A0%E6%89%8D%E7%AC%A8"><span class="toc-text">你才笨</span></a></li></ol>
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%A5%94%E5%AD%90"><span class="toc-text">楔子</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%82%A3%E5%A4%A9%E6%88%91%E4%BB%AC%E5%9C%A8%E5%B9%B2%E5%98%9B"><span class="toc-text">那天我们在干嘛</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%8B%97%E5%8B%BE"><span class="toc-text">狗勾</span></a></li></ol>
     </div>
   </section>
 
@@ -2819,7 +2860,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
     
       
-        <div><p>博客内容遵循 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0) 协议</a></p>
+        <div><p>Blog content follows the <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) License</a></p>
 </div>
       
     
@@ -3277,7 +3318,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 </script>
 
 
-  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"PepperRey","url":"https://PepperRey.github.io/","logo":{"@type":"ImageObject","url":"./source/img/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"PepperRey","image":{"@type":"ImageObject","url":"./source/img/android-chrome-192x192.png"},"url":"https://PepperRey.github.io/","sameAs":["https://github.com/volantis-x"],"description":"PepperRey的深夜故事会"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://PepperRey.github.io/","name":"PepperRey"}},{"@type":"ListItem","position":2,"item":{"@id":"https://PepperRey.github.io/categories/日常/","name":"日常"}},{"@type":"ListItem","position":3,"item":{"@id":"https://PepperRey.github.io/2023/01/05/life/begin/","name":"那我们开始吧"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"PepperRey","url":"https://PepperRey.github.io/","keywords":"开心","description":"PepperRey的深夜故事会","author":{"@type":"Person","name":"PepperRey","image":{"@type":"ImageObject","url":"./source/img/android-chrome-192x192.png"},"url":"https://PepperRey.github.io/","description":"PepperRey的深夜故事会"},"publisher":{"@type":"Organization","name":"PepperRey","url":"https://PepperRey.github.io/","logo":{"@type":"ImageObject","url":"./source/img/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"https://PepperRey.github.io?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","headline":"那我们开始吧","description":"“我说你好笨.”\n“… 啊?”","inLanguage":"zh","mainEntityOfPage":{"@type":"WebPage","@id":"https://pepperrey.github.io/2023/01/05/life/begin/"},"author":{"@type":"Person","name":"PepperRey","image":{"@type":"ImageObject","url":"./source/img/android-chrome-192x192.png"},"url":"https://PepperRey.github.io/"},"publisher":{"@type":"Organization","name":"PepperRey","logo":{"@type":"ImageObject","url":"./source/img/android-chrome-192x192.png","width":192,"height":192}},"url":"https://pepperrey.github.io/2023/01/05/life/begin/","wordCount":15,"datePublished":"2023-01-05T03:15:45.000Z","dateModified":"2023-01-05T04:22:10.926Z","articleSection":"日常","keywords":"日常","image":{"@type":"ImageObject","url":"./source/img/android-chrome-192x192.png","width":192,"height":192}}]</script>
+  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"PepperRey","url":"https://PepperRey.github.io/","logo":{"@type":"ImageObject","url":"./source/img/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"PepperRey","image":{"@type":"ImageObject","url":"./source/img/android-chrome-192x192.png"},"url":"https://PepperRey.github.io/","sameAs":["https://github.com/volantis-x"],"description":"PepperRey的深夜故事会"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://PepperRey.github.io/","name":"PepperRey"}},{"@type":"ListItem","position":2,"item":{"@id":"https://PepperRey.github.io/categories/日常/","name":"日常"}},{"@type":"ListItem","position":3,"item":{"@id":"https://PepperRey.github.io/2023/01/05/life/begin/","name":"那我们开始吧"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"PepperRey","url":"https://PepperRey.github.io/","keywords":"开心","description":"PepperRey的深夜故事会","author":{"@type":"Person","name":"PepperRey","image":{"@type":"ImageObject","url":"./source/img/android-chrome-192x192.png"},"url":"https://PepperRey.github.io/","description":"PepperRey的深夜故事会"},"publisher":{"@type":"Organization","name":"PepperRey","url":"https://PepperRey.github.io/","logo":{"@type":"ImageObject","url":"./source/img/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"https://PepperRey.github.io?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","headline":"那我们开始吧","description":"“我说你好笨.”\n“… 啊?”","inLanguage":"zh","mainEntityOfPage":{"@type":"WebPage","@id":"https://pepperrey.github.io/2023/01/05/life/begin/"},"author":{"@type":"Person","name":"PepperRey","image":{"@type":"ImageObject","url":"./source/img/android-chrome-192x192.png"},"url":"https://PepperRey.github.io/"},"publisher":{"@type":"Organization","name":"PepperRey","logo":{"@type":"ImageObject","url":"./source/img/android-chrome-192x192.png","width":192,"height":192}},"url":"https://pepperrey.github.io/2023/01/05/life/begin/","wordCount":15,"datePublished":"2023-01-05T03:15:45.000Z","dateModified":"2023-01-05T17:57:38.522Z","articleSection":"日常","keywords":"日常","image":{"@type":"ImageObject","url":"./source/img/android-chrome-192x192.png","width":192,"height":192}}]</script>
 
 
 
